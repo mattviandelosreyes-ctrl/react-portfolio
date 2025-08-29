@@ -62,7 +62,7 @@ function Contents()
             <p>
               Hello. My name is Matt. <br /> 
               While studying entertainment in multimedia computing, I've created projects that have been often related towards development and programming.  <br />
-              I am still studying, so a lot of the works I ended up creating were mostly made for projects.<br /> 
+              I am still studying, so a lot of the works I ended up creating were mostly made for school projects.<br /> 
               Down below is some of the projects and works that I created.<br />
             </p>
           </div>
