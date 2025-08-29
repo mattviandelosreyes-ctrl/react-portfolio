@@ -1,0 +1,107 @@
+
+  * 
+  .cards-container 
+  {
+    background-color: #b5dcff; 
+    padding: 20px; 
+    align-items: center;
+    border-radius: 20px; 
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .about-container {
+    background-color: rgb(245, 206, 206);
+  }
+
+  .overlay 
+  {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-img-container:hover .overlay 
+  {
+    opacity: 2;
+  }
+
+  .card-img-container 
+  {
+    position: relative;
+  }
+
+  .card-img-top 
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  /* Shapes */
+.background-container {
+  position: relative;
+  overflow: hidden; /* Prevents shapes from going outside */
+}
+
+
+
+.shape {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2); 
+  border-radius: 50%; /* Circles */
+  animation: moveShape infinite linear;
+  opacity: 0.7;
+}
+
+/* Keyframes that animate the shapes */
+@keyframes moveShape {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100vw, 100vh); /* Moves across the screen */
+  }
+}
+
+
+/* Fade In */
+.fade-in-0 
+{ 
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.fade-in-1
+{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+.fade-in-2
+{
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 2s;
+}
+
+
+
+/* Animation that animates the fade */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
